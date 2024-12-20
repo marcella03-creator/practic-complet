@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+.box-imagen{
+    background-color: rgba(252, 252, 252, 0.25);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.scaled-grayscale{
+    width: 200px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.scaled-grayscale:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+

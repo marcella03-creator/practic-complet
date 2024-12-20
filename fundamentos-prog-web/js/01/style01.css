@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7e8ff;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #contador {
+    font-size: 2rem;
+    margin: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  #incrementar {
+    background-color: #0078d7;
+    color: white;
+  }
+  
+  #decrementar {
+    background-color: #d32f2f;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }

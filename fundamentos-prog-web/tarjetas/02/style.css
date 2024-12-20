@@ -1,0 +1,108 @@
+/* Estilo global */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6e45e2, #88d3ce);
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+/* Tarjeta */
+.tarjeta {
+  background-image: url('/fundamentos-prog-web/recursos/825761_preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  
+  text-align: center;
+  border-radius: 15px;
+  padding: 40px 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  animation: zoom-in 0.5s ease-out;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2b2827;
+  animation: fade-in 1s ease-in-out;
+}
+
+p {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  margin-top: 10px;
+  animation: slide-up 1s ease-in-out;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  animation: fade-in 1.5s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff3b2e;
+}
+
+/* Animaciones */
+@keyframes zoom-in {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Confeti */
+.confeti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ff6f61;
+  opacity: 0.8;
+  border-radius: 50%;
+  animation: confeti-fall 3s ease-in-out infinite;
+}
+
+@keyframes confeti-fall {
+  0% {
+    transform: translateY(-100vh) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}

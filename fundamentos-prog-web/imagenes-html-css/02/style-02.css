@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+}
+
+.carousel {
+    width: 80%;
+    max-width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.carousel-track {
+    display: flex;
+    animation: auto-scroll 10s infinite linear;
+}
+
+.carousel-track img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+@keyframes auto-scroll {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }    
+    100% { transform: translateX(0); }
+}
+
+
+.carousel:hover .carousel-track {
+    animation-play-state: paused;
+    cursor: grab;
+
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+}

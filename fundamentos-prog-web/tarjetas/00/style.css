@@ -1,0 +1,45 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    overflow: hidden;
+  }
+  
+  /* Tarjeta */
+  .tarjeta {
+    background-image: url('/fundamentos-prog-web/recursos/2870.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-out;
+    perspective: 1000px;
+  }
+  
+  /* Contenido dentro de la tarjeta */
+  .tarjeta .contenido {
+    padding: 20px;
+    text-align: center;    
+    transform-style: preserve-3d;
+    transform: translateZ(60px);
+    
+  }
+  
+  
+
+  /* Efectos de animación al pasar el mouse */
+  .tarjeta:hover {
+    transform: rotateY(10deg) rotateX(10deg);
+  }
+  
