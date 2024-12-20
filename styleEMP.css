@@ -1,0 +1,56 @@
+body{
+    background-image:url(IMG/photo-3d.avif);
+    background-position: center;
+}
+
+.header-titulo{
+    background-color :rgb(212, 153, 110);
+    width:250px;
+    margin-left: 2%;
+    border: 4px solid black;
+    background-position: center top;
+}
+
+#corporation{
+    background-color:rgb(134, 202, 204);
+    width:400px;
+    margin-left: 2%;
+    background-position: center top;
+    text-align: center;
+    border: 4px solid black;
+
+}
+
+#information{
+    
+    background-position: center top;
+    text-align: center;
+    width:800px;
+    margin-left: 20%;
+    background-color: darkgoldenrod;
+    border: 4px solid black;
+}
+
+
+/* Blanco y negro a colores con zom (contenedor (imagen), efecto y mov.*/
+.picture{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.grayscale {
+    
+    filter: grayscale(100%);
+    transition: filter 3s transform 0.3s ease-in-out;
+    }
+
+.grayscale:hover {
+    
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+    
+    
+
+
