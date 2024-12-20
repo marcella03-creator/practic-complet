@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 40px;
+    margin: 50px;
+    background-color: rgb(248, 247, 248);
+}
+.container{
+    text-align: center;
+
+}
+#section-color{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 100px;
+    margin: 100px;
+    border-radius:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#cmain{
+    background-color: rgb(62, 165, 165);
+    color: white;
+}
+#csection{
+    background-color: brown;
+    color: white;
+}

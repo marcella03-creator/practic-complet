@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.container{
+    text-align: center;
+
+}
+#contador{
+    font-size: 2rem;
+    margin: 20px;
+}
+
+button{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#incrementar{
+    background-color: aqua;
+    color: white;
+}
+#decrementar{
+    background-color: brown;
+    color: white;
+}
