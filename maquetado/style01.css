@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: yellow;
+}
+
+header{
+    background: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    height: 15vh;
+}
+
+nav{
+    height: 5vh;
+    background-color: aqua;
+    
+    
+}
+ul{
+    display:flex;
+}
+
+
+main{
+    display: flex;
+    background:   red;
+    height: 75vh;
+    
+}
+aside{
+    border: 3px solid blue;
+    margin: 5px;
+    width: 20%;
+}
+
+section{
+    border: 3px solid blue;
+    margin: 5px;
+    width: 60%;
+}
+
+footer{
+    
+    background: green;
+    height: 5vh;
+    
+}
