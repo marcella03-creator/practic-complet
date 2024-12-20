@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    overflow: hidden;
+    height: 100vh;
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.card {
+    background-image: url(IMG/fondo\ body.jpg);
+    background-color: #ff4d4d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.content p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-top: 20px;
+}

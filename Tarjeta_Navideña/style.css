@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #84e245, #d3ac88);
+    overflow: hidden;
+}
+  
+
+  /* Tarjeta */
+  .tarjeta {
+    background-image: url('/fundamentos-web01/Tarjeta_Navideña/IMG/christmas-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
