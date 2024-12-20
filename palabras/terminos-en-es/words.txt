@@ -1,0 +1,9 @@
+EN              ES
+---------------------------------
+form            Formulario
+body            Cuerpo
+head            Cabeza
+input           Entradas
+title           Título
+button          Botón
+information     Información 
